@@ -130,7 +130,7 @@ function Contact() {
           </a>
         </li>
         <li className="social-item">
-        <a href="https://wa.me/9740641170" className="social-link">
+        <a href="https://wa.me/+919740641170" className="social-link">
             <WhatsApp style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>

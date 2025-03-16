@@ -139,7 +139,7 @@ function Sidebar() {
             </a>
           </li>
           <li className="social-item">
-            <a href="https://wa.me/9740641170" className="social-link">
+            <a href="https://wa.me/+919740641170" className="social-link">
               <WhatsApp />
             </a>
           </li>
