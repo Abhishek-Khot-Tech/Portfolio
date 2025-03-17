@@ -135,6 +135,10 @@ import leetcode from "./assets/achievements/other/leetcode.png";
 import gfg from "./assets/achievements/other/gfg.png";
 import codevita1 from "./assets/achievements/other/codevita1.png";
 import codevita2 from "./assets/achievements/other/codevita2.png";
+import fivestar from "./assets/achievements/other/fivestar.png";
+import fivestar1 from "./assets/achievements/other/fivestar1.png";
+import first from "./assets/achievements/other/first.jpg";
+import first2 from "./assets/achievements/other/first2.jpg";
 
 
 export const images = {
@@ -260,11 +264,14 @@ export const images = {
   gfg,
   codevita1,
   codevita2,
+  fivestar,
+  fivestar1,
   gogte1,
   gogte2,
   gogte3,
   gogte4,
-
+  first,
+  first2,
 };
 
 export default images;

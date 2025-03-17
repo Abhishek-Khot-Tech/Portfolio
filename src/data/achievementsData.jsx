@@ -37,4 +37,21 @@ export const achievementData = [
     desc: `Solved 500+ coding problems across LeetCode and GFG! While I've lost some consistency in daily problem-solving due to focusing on development, it's all part of the learning journey. Still more to go 💫`,
     images: [images.leetcode,images.gfg],
   },
+  {
+    title: "5⭐ on HackerRank ",
+    date: "Jan 2024 ",
+    desc: "Achieved a 5-star rating in Java on HackerRank! This journey has strengthened my problem-solving skills and deepened my understanding of Java concepts. Excited to keep growing and tackling more challenges! 🚀",
+    images: [images.fivestar1,images.fivestar],
+  },
+  {
+    title: "Academic Ranking",
+    date: "2023 - 25",
+    desc: "Proudly secured 1st place in the first year and 3rd semester, and 3rd place in the fifth semester! Hard work and dedication continue to drive my academic journey. Onwards and upwards! 🚀📚",
+    images: [
+      images.first,
+      images.first2,
+    ]
+}
+
+
 ];
