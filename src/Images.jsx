@@ -140,6 +140,11 @@ import fivestar1 from "./assets/achievements/other/fivestar1.png";
 import first from "./assets/achievements/other/first.jpg";
 import first2 from "./assets/achievements/other/first2.jpg";
 
+import sg1 from "./assets/achievements/sgbit2025/sgbit0.jpg"
+import sg2 from "./assets/achievements/sgbit2025/sgbit1.jpg"
+import sg3 from "./assets/achievements/sgbit2025/sgbit2.jpg"
+import sg4 from "./assets/achievements/sgbit2025/sgbit3.jpg"
+
 
 export const images = {
  
@@ -272,6 +277,12 @@ export const images = {
   gogte4,
   first,
   first2,
+
+  //sgbit 
+  sg1,
+  sg2,
+  sg3,
+  sg4,
 };
 
 export default images;

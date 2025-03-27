@@ -20,6 +20,12 @@ export const achievementData = [
   // },
 
   {
+    title: "Won 1st Prize in Code Prahari (National-Level Coding Contest)",
+    date: "27 Mar, 2025",
+    desc: "Secured the 1st position in Code Prahari, a high-energy national-level coding contest at SG Balekundri Institute of Technology! The competition was fierce, but we aced it with teamwork, quick thinking. Had an absolute blast—from debugging frenzies to celebrating our win! Proud of our squad for making it unforgettable. 💻✨ #WinningAndGrinning",
+    images: [images.sg1, images.sg2, images.sg3,images.sg4],
+  },
+  {
     title: "Secured 5th Rank in 24-hour Hackathon (ClashOfCodes)",
     date: "13 to 14 Dec, 2024",
     desc: ` Participated in our first-ever 24-hour Hackathon, ClashOfCodes, organized by IEEE at KLS Gogte Institute of Technology, Belagavi, Karnataka, India on 14th-15th December 2024. We secured the 5th rank out of four winning positions—just missing the top spots, but the experience was incredible! Had lots of fun, learned a lot, and enjoyed every moment of the competition.`,
