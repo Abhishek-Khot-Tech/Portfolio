@@ -1,4 +1,3 @@
-
 import profile from "./assets/achievements/profile.jpg";
 
 import typescript from "./assets/skillIcons/typescript.png";
@@ -54,6 +53,26 @@ import logo5 from "./assets/images/logo-5-color.png";
 import logo6 from "./assets/images/logo-6-color.png";
 
 //projects
+import dsa1 from "./assets/projects/dsa/dsa.png";
+import dsa2 from "./assets/projects/dsa/dsa1_.png";
+import dsa3 from "./assets/projects/dsa/dsa2_.png";
+import dsa4 from "./assets/projects/dsa/dsa3_.png";
+import dsa5 from "./assets/projects/dsa/dsa4_.png";
+import dsa6 from "./assets/projects/dsa/dsa5_.png";
+import dsa7 from "./assets/projects/dsa/dsa6_.png";
+import dsa8 from "./assets/projects/dsa/dsa7_.png";
+import dsa9 from "./assets/projects/dsa/dsa8_.png";
+
+import smart1 from "./assets/projects/smart/smartRecruit1.png";
+import smart2 from "./assets/projects/smart/smartRecruit2_.png";
+import smart3 from "./assets/projects/smart/smartRecruit3.png";
+import smart4 from "./assets/projects/smart/smartRecruit4.png";
+import smart5 from "./assets/projects/smart/smartRecruit5.png";
+import smart6 from "./assets/projects/smart/smartRecruit6.png";
+import smart7 from "./assets/projects/smart/smartRecruit7.png";
+import smart8 from "./assets/projects/smart/smartRecruit8.png";
+import smart9 from "./assets/projects/smart/smartRecruit9.png";
+
 import wonder1 from "./assets/projects/wonder/wonder1.png";
 import wonder2 from "./assets/projects/wonder/wonder2.png";
 import wonder3 from "./assets/projects/wonder/wonder3.png";
@@ -124,7 +143,6 @@ import port15 from "./assets/projects/port/port15.png";
 import port16 from "./assets/projects/port/port16.png";
 import port17 from "./assets/projects/port/port17.png";
 
-
 //achievements
 import gogte1 from "./assets/achievements/gogte/g1.jpg";
 import gogte2 from "./assets/achievements/gogte/g2.jpg";
@@ -140,14 +158,21 @@ import fivestar1 from "./assets/achievements/other/fivestar1.png";
 import first from "./assets/achievements/other/first.jpg";
 import first2 from "./assets/achievements/other/first2.jpg";
 
-import sg1 from "./assets/achievements/sgbit2025/sgbit0.jpg"
-import sg2 from "./assets/achievements/sgbit2025/sgbit1.jpg"
-import sg3 from "./assets/achievements/sgbit2025/sgbit2.jpg"
-import sg4 from "./assets/achievements/sgbit2025/sgbit3.jpg"
+import sg1 from "./assets/achievements/sgbit2025/sgbit0.jpg";
+import sg2 from "./assets/achievements/sgbit2025/sgbit1.jpg";
+import sg3 from "./assets/achievements/sgbit2025/sgbit2.jpg";
+import sg4 from "./assets/achievements/sgbit2025/sgbit3.jpg";
 
+import odessy1 from "./assets/achievements/odessy/odessy1.jpg";
+import odessy2 from "./assets/achievements/odessy/odessy2.jpg";
+import odessy3 from "./assets/achievements/odessy/odessy3.jpg";
+import odessy4 from "./assets/achievements/odessy/odessy4.jpg";
+
+import leetcode1 from "./assets/achievements/other/365.gif";
+import leetcode2 from "./assets/achievements/other/3651.png";
+import leetcode3 from "./assets/achievements/other/3652.jpeg";
 
 export const images = {
- 
   profile,
   myAvatar,
   logoIco,
@@ -263,6 +288,24 @@ export const images = {
   port15,
   port16,
   port17,
+  dsa1,
+  dsa2,
+  dsa3,
+  dsa4,
+  dsa5,
+  dsa6,
+  dsa7,
+  dsa8,
+  dsa9,
+  smart1,
+  smart2,
+  smart3,
+  smart4,
+  smart5,
+  smart6,
+  smart7,
+  smart8,
+  smart9,
 
   //achievements
   leetcode,
@@ -278,11 +321,21 @@ export const images = {
   first,
   first2,
 
-  //sgbit 
+  //sgbit
   sg1,
   sg2,
   sg3,
   sg4,
+
+  //leetcode 365
+  leetcode1,
+  leetcode2,
+  leetcode3,
+
+  odessy1,
+  odessy2,
+  odessy3,
+  odessy4,
 };
 
 export default images;

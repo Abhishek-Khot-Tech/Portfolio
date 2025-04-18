@@ -68,12 +68,30 @@ export const projects = [
     title: "🌍 SmartTrack - Portfolio Website ",
     category: "Web Development",
     download: null,
-    images: [images.port1,images.port2,images.port3,images.port4,images.port5,images.port6,images.port7,images.port8,images.port9,images.port10,images.port11,images.port12,images.port13,images.port14,images.port15,images.port16,images.port17],
+    images: [
+      images.port1,
+      images.port2,
+      images.port3,
+      images.port4,
+      images.port5,
+      images.port6,
+      images.port7,
+      images.port8,
+      images.port9,
+      images.port10,
+      images.port11,
+      images.port12,
+      images.port13,
+      images.port14,
+      images.port15,
+      images.port16,
+      images.port17,
+    ],
     alt: "Project image",
     live: null,
-    video:null,
+    video: null,
     repo: "https://github.com/Abhishek-Khot/EasyBytes",
-    desc:` 
+    desc: ` 
 
 SmartTrack is a dynamic portfolio website designed to showcase projects, skills, and achievements with an intuitive and interactive interface. It features CMS integration for effortless content updates, ensuring a professional and engaging online presence.  
 
@@ -95,8 +113,8 @@ SmartTrack is a dynamic portfolio website designed to showcase projects, skills,
 6. Secure Authentication: JWT-based authentication for secure access  
 7. Responsive Design: Fully optimized for mobile, tablet, and desktop  
 8. SEO Optimized: Improved search engine visibility  
-
-Let me know if you need any modifications! 😊 Happy coding! 🚀`},
+`,
+  },
   {
     title: " Service Race - On Demand Service Booking App",
     category: "Web Development",
@@ -151,13 +169,60 @@ Let me know if you need any modifications! 😊 Happy coding! 🚀`},
   8. Service Provider Dashboard: Manage bookings, schedules, and earnings easily  
   `,
   },
+  {
+    title: "🚀 Evalence",
+    category: "Frontend Development",
+    download: null,
+    images: [images.dsa1, images.dsa2,images.dsa3,images.dsa4,images.dsa5,images.dsa6,images.dsa7,images.dsa8,images.dsa9],
+    alt: "DSA Visualization Project image",
+    live: "https://evalence-visualize.onrender.com/",
+    video: null,
+    repo: "https://github.com/Abhishek-Khot/comp-dsa-visualize",
+    desc: ` 
+    
+    📊 Evalence - Interactive DSA Visualization Platform  
+    
+    Evalence is an engaging web application designed to visualize Data Structures and Algorithms with a special focus on sorting algorithm race comparisons. The platform helps users understand complex DSA concepts through interactive animations and real-time visualizations.  
+    
+    💻 Tech Stack:  
+    
+    - Frontend: React.js  
+    - Visualization: Custom animation framework  
+    - Styling: CSS for responsive design  
+    - Deployment: Render  
+    - Version Control: Git and GitHub  
+    
+    ✨ Key Features:  
+    
+    1. Sorting Algorithm Race: Visual comparison of different sorting techniques  
+    2. Interactive DSA Visualizations: Step-by-step animations of algorithms  
+    3. Educational Tool: Helps students grasp complex concepts visually  
+    4. Responsive Design: Accessible across various devices  
+    5. Customizable Speed: Control animation speed for better understanding  
+    
+    `,
+  },
 
-  
   {
     title: "Campus Connect - Resource Finder Website",
     category: "Web Development",
     download: null,
-    images: [images.campus1, images.campus2, images.campus3, images.campus4, images.campus5, images.campus6, images.campus7, images.campus8, images.campus9, images.campus10, images.campus11, images.campus12, images.campus13, images.campus14],
+    images: [
+      images.campus1,
+      images.campus2,
+      images.campus3,
+      images.campus4,
+      images.campus5,
+      images.campus6,
+      images.campus7,
+      images.campus8,
+      images.campus9,
+      images.campus10,
+      images.campus11,
+      images.campus12,
+      images.campus13,
+      images.campus14,
+    ],
     alt: "Project image",
     live: null,
     video: null,
@@ -187,32 +252,16 @@ Campus Connect is a full-stack web platform designed to help students find essen
 9. User Authentication: Secure login and personalized dashboard  
 `,
   },
-
   {
-    title: "Slider Project",
+    title: "Smart Recruitment System",
     category: "Frontend Development",
     download: null,
-    images: [images.slider2, images.slider1],
+    images: [images.smart1, images.smart2,images.smart3, images.smart4,images.smart5, images.smart6,images.smart7, images.smart8,images.smart9],
     alt: "Project image",
-    live: null,
+    live: "https://v0-open-in-v0-two-phi.vercel.app/",
     video: null,
-    repo: "https://github.com/Abhishek-Khot/Slider-Project",
-    desc: ` 🎚 Slider Bar - First Project in Engineering  
-
-The Slider Bar was the first project built during the second year of engineering, using only HTML and CSS. It was a simple yet effective interactive UI component that allowed users to adjust values by moving a slider.  
-
-💻 Tech Stack:  
-
-- HTML: Structure of the slider  
-- CSS: Styling and smooth sliding effects  
-
-✨ Features:  
-
-1. Basic Sliding Mechanism: Simple UI for selecting values  
-2. Custom Styling: Styled with CSS for a visually appealing look  
-3. No JavaScript Dependency: Fully functional using only HTML and CSS  
-4. Responsive Design: Adaptable to different screen sizes  
-5. Beginner-Friendly: A foundational project to understand web UI elements  `,
+    repo: null,
+    desc: "Ongoing Project",
   },
   {
     title: "Weather App",
@@ -244,6 +293,34 @@ The Slider Bar was the first project built during the second year of engineering
       6. Unit Conversion: Toggle between Celsius and Fahrenheit  
       `,
   },
+  
+
+  {
+    title: "Slider Project",
+    category: "Frontend Development",
+    download: null,
+    images: [images.slider2, images.slider1],
+    alt: "Project image",
+    live: null,
+    video: null,
+    repo: "https://github.com/Abhishek-Khot/Slider-Project",
+    desc: ` 🎚 Slider Bar - First Project in Engineering  
+
+The Slider Bar was the first project built during the second year of engineering, using only HTML and CSS. It was a simple yet effective interactive UI component that allowed users to adjust values by moving a slider.  
+
+💻 Tech Stack:  
+
+- HTML: Structure of the slider  
+- CSS: Styling and smooth sliding effects  
+
+✨ Features:  
+
+1. Basic Sliding Mechanism: Simple UI for selecting values  
+2. Custom Styling: Styled with CSS for a visually appealing look  
+3. No JavaScript Dependency: Fully functional using only HTML and CSS  
+4. Responsive Design: Adaptable to different screen sizes  
+5. Beginner-Friendly: A foundational project to understand web UI elements  `,
+  },
   {
     title: "🔥 VibeWave",
     category: "Frontend Development",
@@ -272,17 +349,17 @@ The Slider Bar was the first project built during the second year of engineering
     3. Hover Effects & Animations: Smooth transitions for a dynamic feel  
     `,
   },
-  
+
   {
     title: "Simon Says",
     category: "Frontend Development",
     download: null,
     images: [images.sim1, images.sim2],
     alt: "Project image",
-    live:"https://inquisitive-pastelito-9a4887.netlify.app/",
-    video:null,
+    live: "https://inquisitive-pastelito-9a4887.netlify.app/",
+    video: null,
     repo: "https://github.com/Abhishek-Khot/Simon-Says",
-    desc: "This is a classic Simon Says game I built while learning HTML, CSS, and JavaScript. It challenges players to memorize and repeat a sequence of colors that gets progressively longer with each round. The game tests memory and reflexes, providing a fun and interactive experience."
+    desc: "This is a classic Simon Says game I built while learning HTML, CSS, and JavaScript. It challenges players to memorize and repeat a sequence of colors that gets progressively longer with each round. The game tests memory and reflexes, providing a fun and interactive experience.",
   },
- 
+  
 ];
