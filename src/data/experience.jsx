@@ -1,4 +1,4 @@
-// export const experienceData = [
+export const experienceData = [
 //   {
 //     id: 3,
 //     title: "SWE Intern at BlueStock Fintech",
@@ -26,4 +26,4 @@
 //     description: `Gained practical experience in cloud computing technologies, including AWS and Digital Ocean .Created and managed EC2 instances on AWS and set up Droplets on Digital Ocean for hosting
 // applications. Received recognition for professional conduct and a dedicated approach to tasks.`,
 //   },
-// ];
+];
