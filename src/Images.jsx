@@ -143,6 +143,23 @@ import port15 from "./assets/projects/port/port15.png";
 import port16 from "./assets/projects/port/port16.png";
 import port17 from "./assets/projects/port/port17.png";
 
+import nav1 from "./assets/projects/nav-gadag/nav-one.png";
+import nav2 from "./assets/projects/nav-gadag/nav-two.png";
+import nav3 from "./assets/projects/nav-gadag/nav-three.png";
+import nav4 from "./assets/projects/nav-gadag/nav-five.png";
+import nav5 from "./assets/projects/nav-gadag/nav-six.png";
+import nav6 from "./assets/projects/nav-gadag/nav-seven.png";
+import nav7 from "./assets/projects/nav-gadag/nav-eight.png";
+import nav8 from "./assets/projects/nav-gadag/nav-nine.png";
+import nav9 from "./assets/projects/nav-gadag/nav-10.png";
+import nav10 from "./assets/projects/nav-gadag/nav-11.png";
+import nav11 from "./assets/projects/nav-gadag/nav-12.png";
+import nav12 from "./assets/projects/nav-gadag/nav-13.png";
+import nav13 from "./assets/projects/nav-gadag/nav-14.png";
+import nav14 from "./assets/projects/nav-gadag/nav-15.png";
+import nav15 from "./assets/projects/nav-gadag/nav-16.png";
+import nav16 from "./assets/projects/nav-gadag/nav-17.png";
+
 //achievements
 import gogte1 from "./assets/achievements/gogte/g1.jpg";
 import gogte2 from "./assets/achievements/gogte/g2.jpg";
@@ -171,6 +188,16 @@ import odessy4 from "./assets/achievements/odessy/odessy4.jpg";
 import leetcode1 from "./assets/achievements/other/365.gif";
 import leetcode2 from "./assets/achievements/other/3651.png";
 import leetcode3 from "./assets/achievements/other/3652.jpeg";
+
+import codo from "./assets/achievements/codolio/codo.png";
+
+import gadag1 from "./assets/achievements/gadag/one.jpg";
+import gadag2 from "./assets/achievements/gadag/three.jpg";
+import gadag3 from "./assets/achievements/gadag/four.jpg";
+import gadag4 from "./assets/achievements/gadag/five.jpg";
+import gadag5 from "./assets/achievements/gadag/six.jpg";
+
+
 
 export const images = {
   profile,
@@ -306,8 +333,28 @@ export const images = {
   smart7,
   smart8,
   smart9,
+  nav1,
+  nav2,
+  nav3,
+  nav4,
+  nav5,
+  nav6,
+  nav7,
+  nav8,
+  nav9,
+  nav10,
+  nav11,
+  nav12,
+  nav13,
+  nav14,
+  nav15,
+  nav16,
 
   //achievements
+  //codolio
+  codo,
+
+
   leetcode,
   gfg,
   codevita1,
@@ -336,6 +383,14 @@ export const images = {
   odessy2,
   odessy3,
   odessy4,
+  
+  //gadag
+  gadag1,
+  gadag2,
+  gadag3,
+  gadag4,
+  gadag5,
+
 };
 
 export default images;

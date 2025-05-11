@@ -1,0 +1,73 @@
+
+1. List ALL the FRONTEND tech stack you have worked on, and rate them on a SCALE of 10.
+
+I have been working with the MERN stack for the past 11 months.  
+Frontend Tech Stack: React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, Vite  
+Rating: 9/10 – Confident in building responsive, dynamic, and scalable UIs using React and modern tools.
+
+ 2. List ALL the BACKEND tech stack you have worked on, and rate them on a SCALE of 10.
+
+Backend Tech Stack: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt.js, REST APIs  
+Rating: 9/10 – Strong understanding of API development, authentication, database operations, and backend architecture.
+
+ 3. Have you worked on any SaaS based web project? If yes, share details and your role in that project.
+
+Yes, I have worked on SaaS-based applications where I implemented JWT-based authentication and used bcrypt.js for password hashing.  
+Role: Full-stack developer  
+Responsibilities: Building secure login/signup flows, user role management, and protected routes.
+
+ 4. What is your experience using MEAN/MERN Stack? How many projects you have done using this tech stack? Share more details.
+
+I have completed several projects using the MERN stack, and my portfolio showcases these:  
+🔗 [Portfolio with project links & repos](https://abhishek-khot-portfolio.onrender.com/)  
+Experience includes building full-stack applications with MongoDB, Express.js, React.js, and Node.js. Implemented features like authentication, dashboards, form handling, and deployment.
+
+ 5. Have you worked on any web project, where AI/ML/Deep Learning / Computer Vision AI Models were used in the backend? If yes, share details on the tech stack used and your role in that project.
+
+Yes, I worked on a Computer Vision-based project during a hackathon, where we used YOLO for face detection to monitor students during interviews.  
+- Role: Backend Developer  
+- Tech Stack: Python (YOLO model), Node.js (integration), React.js (frontend)  
+- Also worked on a ML mini-project using California Housing Dataset for price prediction using basic regression models in Python.
+
+ 6. Please share the project in which you were part of the BACKEND team. Share the tech stack used.
+
+I was a backend developer in our hackathon team and during my internship at Easybytes.  
+- Hackathon Project: Used Node.js, Express, MongoDB  
+- Internship Project: Built APIs and backend logic for a Student Portfolio platform  
+  🔗 [GitHub Repo – Smart Portfolio](https://github.com/Abhishek-Khot/Smart-Portfolio)
+
+ 7. Please share the project in which you were part of the FRONTEND team. Share the tech stack used.
+
+During my internship at Easybytes, I was responsible for building the frontend of the Student CMT platform, a portfolio-like web app.  
+- Tech Stack: React.js, Tailwind CSS, JavaScript  
+- Handled form creation, validation, UI components, and API integration.
+
+ 8. Which is the most interesting web project you have worked on till now? Share your role in that.
+
+My most interesting project is the ongoing Smart Recruitment System – a final-year project.  
+around 30% of work is done . 
+- 🔗 [Learning Platform Frontend](https://v0-open-in-v0-two-phi.vercel.app/)  
+- 🔗 [Hosted Site of DSA Learing](https://evalence-visualize.onrender.com/)  
+Role: Full stack Developer 
+Features:
+- Students learn DSA via animations
+- Weak area detection using ML
+- Test proctoring via YOLO (Computer Vision)
+- HR dashboard to review and export student reports
+- Email service integration for sharing interview info and offer letters
+
+ 9. Have you worked as an Intern before? Please share projects worked on, your role and experience gained.
+
+Yes, I have completed the following internships:
+
+- Bluestock Fintech: Developed a web application as a solo project to showcase my skills.
+- Easybytes (SDE Intern): Worked as full-stack developer on Student CMT platform (portfolio system for students).  
+  🔗 [Smart Portfolio GitHub Repo](https://github.com/Abhishek-Khot/Smart-Portfolio)
+- Softmusk (Cloud Internship): Learned about DigitalOcean droplets, AWS EC2 instances, and DynamoDB setup.
+
+✅ Additional Highlights:
+- I have strong experience working with MERN Stack.
+- I have good knowledge of Java.
+- Solved 600+ DSA problems across various platforms.  
+🔗 [Codolio DSA Dashboard](https://codolio.com/profile/SmolBrain)
+🔗 [Portfolio](https://abhishek-khot-portfolio.onrender.com/) 

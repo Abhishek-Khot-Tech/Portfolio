@@ -1,5 +1,13 @@
 export const experienceData = [
   {
+    id: 4,
+    title: "Java Application Development Intern at Pranaksh Technologies LLP",
+    period: "Sep 2024 - Dec 2024",
+    workMode: "Onsite",
+    location: "Belgaum , Karnataka",
+    description: `Completed the "Code to Project" internship focused on Java Application Development. Gained hands-on experience in building Java-based applications, applying programming concepts to real-world problems, and working in a professional tech environment under expert guidance.`,
+  },
+  {
     id: 3,
     title: "SWE Intern at BlueStock Fintech",
     period: "Jan 2025 - Feb 2025",

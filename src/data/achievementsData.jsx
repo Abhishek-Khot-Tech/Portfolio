@@ -45,17 +45,31 @@ export const achievementData = [
   },
   {
     title:
-      "Won 1st Prize in Digital Decipher (National-Level Coding Contest)",
+    "Won 1st Prize in Digital Decipher (National-Level Coding Contest)",
     date: "11 May, 2025",
     desc: "Secured the 1st position in Digital Decipher, an intense national-level tech competition at Jain College of Engineering, Belagavi! The event had three thrilling rounds—a quiz, DSA problem-solving, and a computer networks challenge. The competition was tough, but our team nailed it with sharp problem-solving. Proud of our squad for dominating all rounds and making it unforgettable. 💻🏆 #CodeToGlory",
     images: [images.odessy3, images.odessy2, images.odessy1, images.odessy4],
   },
+  {
+  title: "Won 1st Prize at TCE-Hackfinity 2025 (National-Level Hackathon)",
+  date: "May 2025",
+  desc: "Clinched 1st place in TCE-Hackfinity, a national-level 24-hour hackathon at Tontadarya College of Engineering, Gadag! 🚀 We built 'Smart Campus Navigator' — an AI-powered platform to guide students and visitors across campus. Huge shoutout to my amazing team for turning pressure into innovation! 💡🔥",
+  images: [images.gadag1, images.gadag2, images.gadag3, images.gadag4,images.gadag5],
+}
+,
   {
     title: "5⭐ on HackerRank ",
     date: "Jan 2024 ",
     desc: "Achieved a 5-star rating in Java on HackerRank! This journey has strengthened my problem-solving skills and deepened my understanding of Java concepts. Excited to keep growing and tackling more challenges! 🚀",
     images: [images.fivestar1, images.fivestar],
   },
+  {
+  title: "Codolio Global Rank #1379",
+  date: "Apr 2025",
+  desc: "Proud to have achieved a global rank of 1379 on Codolio! 🚀 This milestone reflects consistent dedication to sharpening coding skills, tackling diverse challenges, and growing through competitive problem-solving. Grateful for the learning journey and looking forward to climbing even higher 💪.",
+  images: [images.codo,images.codo], // Replace or add more if needed
+}
+,
 
   {
     title: "Academic Ranking",

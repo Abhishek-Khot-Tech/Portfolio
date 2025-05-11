@@ -34,7 +34,7 @@ function About() {
      
 
       <a
-        href="https://drive.google.com/file/d/1CFe_BdNG6uNufOdvVYIxbXxuU8k8YrtC/view"
+        href="https://drive.google.com/file/d/1M6hbsB2aLO8P3A8-sJ6E7GhEawN7DllH/view"
         target="_blank"
       >
         <Button

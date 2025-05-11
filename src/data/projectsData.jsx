@@ -8,6 +8,62 @@ export const categories = [
 ];
 
 export const projects = [
+  {
+    title: "🎯 Smart Campus Navigator",
+    category: "Machine Learning",
+    download: null,
+    images: [
+      images.nav1,
+      images.nav2,
+      images.nav3,
+      images.nav4,
+      images.nav5,
+      images.nav6,
+      images.nav7,
+      images.nav8,
+      images.nav9,
+      images.nav10,
+      images.nav11,
+      images.nav12,
+      images.nav13,
+      images.nav14,
+      images.nav15,
+      images.nav16,
+    ], // Add relevant image references if available, e.g., images.campus1, images.campus2, etc.
+    alt: "Smart Campus Navigator Project Image",
+    live: null, // Add live link if hosted
+    video: "https://youtu.be/_m3iG4ZewJ0", // Add demo video link if available
+    repo: null, // Add GitHub repo link if public
+    desc: `
+Smart Campus Navigator is an AI-powered interactive platform built to simplify campus navigation for students and visitors. It offers seamless access to locations, events, and services through an intuitive interface and real-time features.
+
+📱 Key Features:
+
+1. 🔍 Location Search: Find rooms, departments, or events instantly  
+2. 📸 QR Scanning: Instantly access location info via QR codes  
+3. 📍 Smart Suggestions: Nearby canteens, restrooms, and libraries based on current location  
+4. 🧠 AI-Powered Guidance: Intelligent route planning using floor plans and LLMs  
+5. 💬 Natural Language Directions: Clear route explanations via integrated LLM  
+6. 🌐 2D & 3D Navigation: Immersive Google Maps + Leaflet integration  
+7. 📈 Live Heatmaps: Campus crowd density visualized with color-coded flags  
+8. 🧾 Event System: Online event registration with direct payments  
+9. 🍽️ Mess Menu: Daily dynamic menu, editable by the mess team  
+10. 🗺️ Campus Tour: Interactive campus overview with a student dashboard  
+11. 🔐 Secure Auth: Login via Google or Email OTP  
+12. 📌 2D/3D Facility Previews: QR-tagged access to visual facility guides  
+
+🛠 Tech Stack:
+
+- Frontend: Next.js  
+- Backend: Node.js, Express.js, Flask  
+- Database: MongoDB  
+- Authentication: Google OAuth, Email OTP  
+- APIs & Libraries: Google Maps API, Leaflet, Email.js  
+- AI Tools: LLMs, AI/ML, Computer Vision  
+- Hosting: Vercel  
+  `,
+  },
+
   // {
   //   title: "Slider Project",
   //   category: "Fronted Developemnt",
@@ -173,7 +229,17 @@ SmartTrack is a dynamic portfolio website designed to showcase projects, skills,
     title: "🚀 Evalence",
     category: "Frontend Development",
     download: null,
-    images: [images.dsa1, images.dsa2,images.dsa3,images.dsa4,images.dsa5,images.dsa6,images.dsa7,images.dsa8,images.dsa9],
+    images: [
+      images.dsa1,
+      images.dsa2,
+      images.dsa3,
+      images.dsa4,
+      images.dsa5,
+      images.dsa6,
+      images.dsa7,
+      images.dsa8,
+      images.dsa9,
+    ],
     alt: "DSA Visualization Project image",
     live: "https://evalence-visualize.onrender.com/",
     video: null,
@@ -256,7 +322,17 @@ Campus Connect is a full-stack web platform designed to help students find essen
     title: "Smart Recruitment System",
     category: "Frontend Development",
     download: null,
-    images: [images.smart1, images.smart2,images.smart3, images.smart4,images.smart5, images.smart6,images.smart7, images.smart8,images.smart9],
+    images: [
+      images.smart1,
+      images.smart2,
+      images.smart3,
+      images.smart4,
+      images.smart5,
+      images.smart6,
+      images.smart7,
+      images.smart8,
+      images.smart9,
+    ],
     alt: "Project image",
     live: "https://v0-open-in-v0-two-phi.vercel.app/",
     video: null,
@@ -293,7 +369,6 @@ Campus Connect is a full-stack web platform designed to help students find essen
       6. Unit Conversion: Toggle between Celsius and Fahrenheit  
       `,
   },
-  
 
   {
     title: "Slider Project",
@@ -361,5 +436,4 @@ The Slider Bar was the first project built during the second year of engineering
     repo: "https://github.com/Abhishek-Khot/Simon-Says",
     desc: "This is a classic Simon Says game I built while learning HTML, CSS, and JavaScript. It challenges players to memorize and repeat a sequence of colors that gets progressively longer with each round. The game tests memory and reflexes, providing a fun and interactive experience.",
   },
-  
 ];
