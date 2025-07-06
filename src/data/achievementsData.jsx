@@ -50,6 +50,12 @@ export const achievementData = [
     desc: "Secured the 1st position in Digital Decipher, an intense national-level tech competition at Jain College of Engineering, Belagavi! The event had three thrilling rounds—a quiz, DSA problem-solving, and a computer networks challenge. The competition was tough, but our team nailed it with sharp problem-solving. Proud of our squad for dominating all rounds and making it unforgettable. 💻🏆 #CodeToGlory",
     images: [images.odessy3, images.odessy2, images.odessy1, images.odessy4],
   },
+{
+  title: "Top 25 Finish in 24-hour Hackathon (HackToFuture) 🚀",
+  date: "30 to 31 May, 2025",
+  desc: `Participated in the national-level 24-hour Hackathon, HackToFuture, organized by KLS Gogte Institute of Technology, Belagavi, Karnataka, India on 30th–31st May 2025. Proud to be among the Top 25 teams out of 200+ from across India — including participants from IITs and NITs! 🧠⚡ It was a power-packed event full of innovation, energy, and collaboration. A truly unforgettable experience!`,
+  images: [images.hacktofuture2, images.hacktofuture1],
+},
   {
   title: "Won 1st Prize at TCE-Hackfinity 2025 (National-Level Hackathon)",
   date: "May 2025",
@@ -83,4 +89,12 @@ export const achievementData = [
     desc: "Grateful to have earned the 365-day streak badge on LeetCode 🙏. This consistent practice has helped me gradually improve my problem-solving skills 🧠 and develop a deeper appreciation for structured thinking. There's still so much to learn, and I'm excited to keep going one step at a time 🚶‍♂️.",
     images: [images.leetcode1, images.leetcode2, images.leetcode3],
   },
+  {
+  title: "Paper Published at Microsoft INCET 📄",
+  date: "May 22 – May 24, 2025",
+  desc: "Thrilled to share that our paper titled 'Centralized Smart Service Hub' was published at the Microsoft International Conference on Emerging Trends (INCET) 2025 🎉. It was a great opportunity to contribute to the field and exchange ideas with inspiring researchers and professionals. Grateful for the learning and collaboration throughout this journey 🙌.",
+  images: [images.incet2, images.incet1],
+}
+
+
 ];

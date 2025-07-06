@@ -13,7 +13,7 @@ function Achievements() {
   return (
     <article className="blog active" data-page="blog">
       <header>
-        <h2 className="h2 article-title">Achievements</h2>
+        <h2 className="h2 article-title">Achieve</h2>
       </header>
 
       <ImageList variant="masonry" cols={isMobile ? 1 : 2} gap={"1.7rem"}>

@@ -199,6 +199,12 @@ import gadag5 from "./assets/achievements/gadag/six.jpg";
 
 
 
+import incet1 from "./assets/achievements/incet/incet.jpg";
+import incet2 from "./assets/achievements/incet/incetphoto.jpg";
+
+import hacktofuture1 from "./assets/achievements/gogte/h2f.jpg";
+import hacktofuture2 from "./assets/achievements/gogte/h2fphoto.jpg";
+
 export const images = {
   profile,
   myAvatar,
@@ -390,6 +396,14 @@ export const images = {
   gadag3,
   gadag4,
   gadag5,
+
+  //paper
+  incet1,
+  incet2,
+
+  //hack to future
+  hacktofuture1,
+  hacktofuture2
 
 };
 

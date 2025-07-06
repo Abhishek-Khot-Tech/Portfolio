@@ -6,7 +6,8 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Achievements from "./pages/Achievements";
-import Contact from "./pages/Contact";           
+import Contact from "./pages/Contact";  
+import Certificates from "./pages/Certificates";
 // import Social from "./pages/Social";           
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           {activeSection === "Skills" && <Skills />}
           {activeSection === "Projects" && <Projects />}
           {activeSection === "Achievements" && <Achievements />}
+          {/* {activeSection === "Certificates" && <Certificates />} */}
           {activeSection === "Contact" && <Contact />}
         </div>
       </main>
