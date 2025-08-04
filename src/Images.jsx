@@ -165,7 +165,7 @@ import clothing2 from "./assets/projects/clothing/clothing2.png";
 import clothing3 from "./assets/projects/clothing/clothing3.png";
 import clothing4 from "./assets/projects/clothing/clothing4.png";
 
-import crisis1 from "./assets/projects/crisis/crisis.png";
+import crisis1 from "./assets/projects/cris/crisis.png";
 //achievements
 import gogte1 from "./assets/achievements/gogte/g1.jpg";
 import gogte2 from "./assets/achievements/gogte/g2.jpg";
