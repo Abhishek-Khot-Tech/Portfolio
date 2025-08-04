@@ -160,6 +160,12 @@ import nav14 from "./assets/projects/nav-gadag/nav-15.png";
 import nav15 from "./assets/projects/nav-gadag/nav-16.png";
 import nav16 from "./assets/projects/nav-gadag/nav-17.png";
 
+import clothing1 from "./assets/projects/clothing/clothing1.png";
+import clothing2 from "./assets/projects/clothing/clothing2.png";
+import clothing3 from "./assets/projects/clothing/clothing3.png";
+import clothing4 from "./assets/projects/clothing/clothing4.png";
+
+import crisis1 from "./assets/projects/crisis/image.png";
 //achievements
 import gogte1 from "./assets/achievements/gogte/g1.jpg";
 import gogte2 from "./assets/achievements/gogte/g2.jpg";
@@ -196,8 +202,6 @@ import gadag2 from "./assets/achievements/gadag/three.jpg";
 import gadag3 from "./assets/achievements/gadag/four.jpg";
 import gadag4 from "./assets/achievements/gadag/five.jpg";
 import gadag5 from "./assets/achievements/gadag/six.jpg";
-
-
 
 import incet1 from "./assets/achievements/incet/incet.jpg";
 import incet2 from "./assets/achievements/incet/incetphoto.jpg";
@@ -355,11 +359,14 @@ export const images = {
   nav14,
   nav15,
   nav16,
-
+  clothing1,
+  clothing2,
+  clothing3,
+  clothing4,
+  crisis1,
   //achievements
   //codolio
   codo,
-
 
   leetcode,
   gfg,
@@ -389,7 +396,7 @@ export const images = {
   odessy2,
   odessy3,
   odessy4,
-  
+
   //gadag
   gadag1,
   gadag2,
@@ -403,8 +410,7 @@ export const images = {
 
   //hack to future
   hacktofuture1,
-  hacktofuture2
-
+  hacktofuture2,
 };
 
 export default images;

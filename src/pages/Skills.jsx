@@ -63,7 +63,7 @@ function Skills() {
 
           <li className="skills-item">
             <div className="title-wrapper">
-              <h5 className="h5">Machine Learning</h5>
+              <h5 className="h5">Artificial Intelligence(GEN)</h5>
             </div>
 
             <div className="skill-progress-bg">
@@ -88,9 +88,7 @@ function Skills() {
 
           <li className="skills-item">
             <div className="title-wrapper">
-              <h5 className="h5">
-                Core Subjects - OS, CN, DBMS
-              </h5>
+              <h5 className="h5">Core Subjects - OS, CN, DBMS</h5>
             </div>
 
             <div className="skill-progress-bg">
@@ -100,9 +98,6 @@ function Skills() {
               ></div>
             </div>
           </li>
-
-
-          
         </ul>
       </section>
 

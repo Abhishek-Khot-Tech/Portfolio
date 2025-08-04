@@ -18,23 +18,17 @@ function About() {
 
       <section className="about-text">
         <p>
-          Passionate full-stack web developer currently in my third year of
-         <strong> Computer Science</strong> studies, with a strong foundation in both <strong> Front-end  </strong>
-         and <strong> Back-end development.</strong> I actively solve algorithmic problems on
-          platforms like <strong>LeetCode</strong>, enhancing my problem-solving and coding
-          skills. With <strong>Three internships</strong> under my belt, I have gained practical
-          experience in building scalable web applications and working in
-          collaborative environments. I also thrive in competitive settings,
-          having participated in multiple  <strong>hackathons</strong>, where I’ve honed my
-          ability to innovate under pressure. Eager to leverage my skills and
-          experiences to contribute to cutting-edge projects and continue
-          growing as a developer.{" "}
+          Passionate full-stack web developer currently in my Fourth year of
+          <strong> Computer Science</strong> studies, with a strong foundation
+          in both <strong> Front-end </strong>
+          and <strong> Back-end development.</strong> I actively solve
+          algorithmic problems on platforms like <strong>LeetCode</strong>,
+          enhancing my problem-solving and coding skills.
         </p>
       </section>
-     
 
       <a
-        href="https://drive.google.com/file/d/1M6hbsB2aLO8P3A8-sJ6E7GhEawN7DllH/view"
+        href="https://drive.google.com/file/d/1KBmUxTJdylqFYBE-TPzeBcIZkiS0lAEX/view?usp=sharing"
         target="_blank"
       >
         <Button

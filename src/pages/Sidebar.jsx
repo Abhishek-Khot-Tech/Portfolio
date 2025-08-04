@@ -36,8 +36,8 @@ function Sidebar() {
             Abhishek R Khot
           </h1>
 
-          <p className="title">Full Stack Developer </p>
-          
+          <p className="title">Aspiring Software Engineer </p>
+
           {/* <p className="title">Machine Learning</p> */}
         </div>
 
@@ -64,7 +64,10 @@ function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Email</p>
 
-              <a href="mailto:khotabhishek15@gmail.com" className="contact-link">
+              <a
+                href="mailto:khotabhishek15@gmail.com"
+                className="contact-link"
+              >
                 khotabhishek15@gmail.com
               </a>
             </div>

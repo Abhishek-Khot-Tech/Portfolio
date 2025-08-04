@@ -3,14 +3,15 @@ export const categories = [
   "All",
   "Web Development",
   // "Console Applications",
-  "Machine Learning",
+  "Gen AI",
+
   "Frontend Development",
 ];
 
 export const projects = [
   {
     title: "🎯 Smart Campus Navigator",
-    category: "Machine Learning",
+    category: "Gen AI",
     download: null,
     images: [
       images.nav1,
@@ -63,19 +64,6 @@ Smart Campus Navigator is an AI-powered interactive platform built to simplify c
 - Hosting: Vercel  
   `,
   },
-
-  // {
-  //   title: "Slider Project",
-  //   category: "Fronted Developemnt",
-  //   download: null,
-  //   images: [images.tictactoe1, images.tictactoe2],
-  //   alt: "Project image",
-  //   live: null,
-  //   video:
-  //     "https://drive.google.com/file/d/187SHxy9pKvTftp9akpyGZvxP6egsrbQm/view?usp=sharing",
-  //   repo: null,
-  //   desc: "This is a classic Tic Tac Toe game I built while learning Python. It allows two players to take turns placing their marks on a 3x3 grid, with the game detecting a win or draw after each move.",
-  // },
   {
     title: "Happy Stay- Travel Planning Platform",
     category: "Web Development",
@@ -119,6 +107,98 @@ Smart Campus Navigator is an AI-powered interactive platform built to simplify c
     8. Responsive Design: Works seamlessly on mobile devices  
     9. Feedback & Contact: Users can submit queries and feedback  
     `,
+  },
+  {
+    title: "🛍️ Custom Clothing E-Commerce Platform",
+    category: "Web Development",
+    download: null,
+    images: [
+      images.clothing1,
+      images.clothing2,
+      images.clothing3,
+      images.clothing4,
+    ], // Replace or extend with actual image references
+    alt: "Custom Clothing Website Project Image",
+    live: "https://lnkd.in/gHDN9gjp", // Live site link
+    video: "https://youtu.be/xqhKaIZ9VRo", // Add demo video link if available
+    repo: "https://github.com/Abhishek-Khot/clothing-frontend", // GitHub link if public
+    desc: `
+🚀 Just wrapped up a freelance project - a dedicated clothing website built for a local apparel business!
+
+🧩 The system includes two key modules:
+1. 🛠️ Admin Dashboard: Multi-admin support to add/manage clothing items securely  
+2. 🛍️ Main Website: Customer-facing storefront that dynamically displays all clothing items  
+
+🔧 This dual-module architecture was tailored to the client’s workflow — offering full inventory control while delivering a clean, responsive user interface.
+
+📱 Fully responsive design optimized for mobile.  
+🎨 Initial design from Figma — later enhanced for better UI/UX: [https://lnkd.in/geazHzrd]  
+⚡ Migrated to Next.js for superior rendering and animation performance  
+
+🛠 Tech Stack:
+- Frontend: Next.js  
+- Backend: Node.js (Express.js)  
+- Database: MongoDB  
+- Image Storage: Cloudinary  
+- Hosting: Render  
+
+💡 Key Learnings:
+- Navigated CORS issues with API integration across modules  
+- Leveraged Hopscotch for rapid API testing  
+- Deepened skills with Chrome DevTools Network tab  
+- End-to-end full stack integration & Server-Side Rendering (SSR)  
+
+📌 Grateful for the opportunity to build something meaningful — refining it further based on ongoing client feedback!
+  `,
+  },
+  {
+    title: "🚨 Crisis Detection & Response System",
+    category: "Gen AI",
+    download: null,
+    images: [
+      images.crisis1,
+      // images.crisis2,
+      // images.crisis3,
+      // images.crisis4,
+      // images.crisis5,
+      // images.crisis6,
+      // images.crisis7,
+      // images.crisis8,
+    ], // Replace with actual images if available
+    alt: "Crisis Response App Project Image",
+    live: null,
+    video: null, // Add demo video link if any
+    repo: null, // GitHub link if public
+    desc: `
+🔹 Project: Crisis Detection & Response System  
+📱 A full-stack emergency platform combining mobile tech with Bluetooth Mesh Communication — designed for remote or risky zones like mines, forests, or mountainous regions.
+
+🛰️ Mesh Network Communication  
+Even with no internet, devices connect peer-to-peer within ~600m range. With relays, coverage can stretch up to 1200m+, creating a dynamic mesh (e.g., Device 1 ➡️ 2 ➡️ 3).
+
+🗣️ Voice-Triggered Alerts in 3 Languages  
+Crisis messages are voice-broadcasted in English, Kannada, and Marathi — ensuring accessibility for local communities.
+
+🧠 AI Medical Agent  
+Users can interact with an AI assistant for emergency help (like bone fractures) while waiting for real responders.
+
+🌦️ Weather-Integrated Risk Context  
+7-day weather forecasts integrated to anticipate crises. (e.g., "Belagavi: Cloudy all week with potential floods ☔")
+
+⚠️ AI Crisis Segregator + Superadmin Dashboard  
+AI automatically categorizes incidents. A superadmin validates and dispatches them to nearby responder groups.
+
+👮‍♂️ Community Admin System  
+Each region has admins managing volunteers, tracking their response metrics, and rewarding top performers.
+
+🗺️ Live Map + Google Maps Integration  
+All alerts and locations are visualized in real time, helping teams act with full spatial awareness.
+
+🎯 YOLOv8-Powered Detection + Leaflet Maps  
+Our trained model detects visual cues of crises (e.g., landslides) in real-time, draws bounding boxes, and marks them on Leaflet-powered maps for immediate actionability.
+
+This hackathon project was a wild ride — blending hardware, AI, and software into a system that's actually deployable in the field. Super proud of what we built as a team!
+  `,
   },
   {
     title: "🌍 SmartTrack - Portfolio Website ",
@@ -207,7 +287,7 @@ SmartTrack is a dynamic portfolio website designed to showcase projects, skills,
   - Backend: Node.js, Express.js  
   - Database: MongoDB  
   - Authentication: JWT Authentication  
-  - AI & ML: Machine Learning-based service recommendations  
+  - AI & ML: Gen AI-based service recommendations  
   - Image Storage: Cloudinary  
   - Payment Gateway: Razorpay  
   - Maps & Tracking: Leaflet.js for real-time order tracking  
