@@ -3,7 +3,9 @@
 import React, { useEffect, useState } from "react";
 import SendIcon from "@mui/icons-material/Send";
 import { Button, Snackbar, Alert, CircularProgress } from "@mui/material"; // Import Snackbar and Alert
-import emailjs from "emailjs-com";
+import { sendEmail } from "../utils/emailService";
+import ElectricBorder from "../components/modern/ElectricBorder";
+import SplitText from "../components/modern/SplitText";
 import {
   GitHub,
   Instagram,
@@ -13,10 +15,6 @@ import {
 } from "@mui/icons-material";
 
 function Contact() {
-  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
-  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
-  const USER_ID = import.meta.env.VITE_USER_ID;
-
   useEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -55,21 +53,62 @@ function Contact() {
 
     setLoading(true);
 
+    try {
+      await sendEmail(formData);
+      setLoading(false);
+      setFormData({ fullname: "", email: "", message: "" });
+      setSnackbar({
+        open: true,
+        message: "Message sent successfully!",
+        severity: "success",
+      });
+    } catch (error) {
+      console.error("Failed to send email.", error);
+      setLoading(false);
+      setSnackbar({
+        open: true,
+        message: "Failed to send message. Try again later.",
+        severity: "error",
+      });
+    }
+  };
+
+  // Alternative method using the existing emailjs setup
+  const handleSubmitEmailJS = (e) => {
+    e.preventDefault();
+
+    if (
+      !formData.fullname.trim() ||
+      !formData.email.trim() ||
+      !formData.message.trim()
+    ) {
+      setSnackbar({
+        open: true,
+        message: "Please fill in all fields before submitting.",
+        severity: "warning",
+      });
+      return;
+    }
+
+    setLoading(true);
+
+    // Fallback to EmailJS if SMTP backend is not ready
     const emailData = {
       ...formData,
       from_name: "Portfolio Website",
       user_email: formData.email,
     };
 
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, emailData, USER_ID).then(
-      (result) => {
+    // Note: You'll need to configure EmailJS service
+    emailjs.send("your_service_id", "your_template_id", emailData, "your_user_id").then(
+      () => {
         setLoading(false);
         setFormData({ fullname: "", email: "", message: "" });
         setSnackbar({
           open: true,
           message: "Message sent successfully!",
           severity: "success",
-        }); // Show success toast
+        });
       },
       (error) => {
         console.error("Failed to send email.", error.text);
@@ -78,7 +117,7 @@ function Contact() {
           open: true,
           message: "Failed to send message. Try again later.",
           severity: "error",
-        }); // Show error toast
+        });
       }
     );
   };
@@ -86,12 +125,17 @@ function Contact() {
   return (
     <article className="contact active" data-page="contact">
       <header>
-        <h2 className="h2 article-title">Contact</h2>
+        <SplitText 
+          text="Contact" 
+          className="h2 article-title futuristic-heading"
+        />
       </header>
 
-      <h3 className="h3 form-title" style={{ textAlign: "center" }}>
-        Connect with me
-      </h3>
+      <SplitText 
+        text="Connect with me" 
+        className="h3 form-title futuristic-heading"
+        style={{ textAlign: "center" }}
+      />
 
       <ul
         className="social-list"
@@ -136,68 +180,74 @@ function Contact() {
         </li>
       </ul>
 
-      <section className="contact-form">
-        <form className="form" onSubmit={handleSubmit}>
-          <div className="input-wrapper">
-            <input
-              type="text"
-              name="fullname"
-              className="form-input"
-              placeholder="Full name"
+      <ElectricBorder intensity="medium">
+        <section className="contact-form">
+          <form className="form" onSubmit={handleSubmit}>
+            <div className="input-wrapper">
+              <input
+                type="text"
+                name="fullname"
+                className="form-input futuristic-input"
+                placeholder="Full name"
+                required
+                onChange={handleChange}
+                value={formData.fullname}
+              />
+
+              <input
+                type="email"
+                name="email"
+                className="form-input futuristic-input"
+                placeholder="Email address"
+                required
+                onChange={handleChange}
+                value={formData.email}
+              />
+            </div>
+
+            <textarea
+              name="message"
+              className="form-input futuristic-input"
+              placeholder="Your Message"
               required
               onChange={handleChange}
-              value={formData.fullname}
-            />
+              value={formData.message}
+            ></textarea>
 
-            <input
-              type="email"
-              name="email"
-              className="form-input"
-              placeholder="Email address"
-              required
-              onChange={handleChange}
-              value={formData.email}
-            />
-          </div>
-
-          <textarea
-            name="message"
-            className="form-input"
-            placeholder="Your Message"
-            required
-            onChange={handleChange}
-            value={formData.message}
-          ></textarea>
-
-          <button className="form-btn" type="submit" disabled={loading}>
-            {loading ? (
-              <>
-                <CircularProgress size={24} color="inherit" />
-                <span>Sending Message..</span>
-              </>
-            ) : (
-              <>
-                <SendIcon />
-                <span>Send Message</span>
-              </>
-            )}
-          </button>
-        </form>
-        <Snackbar
-          open={snackbar.open}
-          autoHideDuration={6000}
-          onClose={() => setSnackbar({ ...snackbar, open: false })}
-          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-        >
-          <Alert
+            <button 
+              className="form-btn futuristic-btn" 
+              type="submit" 
+              disabled={loading}
+            >
+              {loading ? (
+                <>
+                  <div className="futuristic-loading" />
+                  <span>Sending Message..</span>
+                </>
+              ) : (
+                <>
+                  <SendIcon />
+                  <span>Send Message</span>
+                </>
+              )}
+            </button>
+          </form>
+          <Snackbar
+            open={snackbar.open}
+            autoHideDuration={6000}
             onClose={() => setSnackbar({ ...snackbar, open: false })}
-            severity={snackbar.severity}
-            sx={{ width: "100%" }}
+            anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
           >
-            {snackbar.message}
-          </Alert>
-        </Snackbar>
-      </section>
+            <Alert
+              onClose={() => setSnackbar({ ...snackbar, open: false })}
+              severity={snackbar.severity}
+              sx={{ width: "100%" }}
+            >
+              {snackbar.message}
+            </Alert>
+          </Snackbar>
+        </section>
+      </ElectricBorder>
     </article>
   );
 }

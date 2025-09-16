@@ -1,0 +1,81 @@
+.electric-border {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(45deg, #0a0a0a, #1a1a1a);
+}
+
+.electric-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  background: linear-gradient(45deg, 
+    #00ff88, 
+    #ffff00, 
+    #ff0080, 
+    #0080ff, 
+    #00ff88
+  );
+  background-size: 400% 400%;
+  border-radius: inherit;
+  z-index: -1;
+  animation: electric-flow 3s ease-in-out infinite;
+}
+
+.electric-border__content {
+  position: relative;
+  background: var(--eerie-black-2);
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.electric-border__glow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 70%);
+  animation: glow-pulse 2s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+.electric-border--low::before {
+  animation-duration: 4s;
+  opacity: 0.6;
+}
+
+.electric-border--medium::before {
+  animation-duration: 3s;
+  opacity: 0.8;
+}
+
+.electric-border--high::before {
+  animation-duration: 2s;
+  opacity: 1;
+}
+
+@keyframes electric-flow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes glow-pulse {
+  0% {
+    opacity: 0.1;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1.2);
+  }
+}
