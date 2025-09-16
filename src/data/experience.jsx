@@ -7,14 +7,14 @@ export const experienceData = [
     location: "Belgaum , Karnataka",
     description: `Completed the "Code to Project" internship focused on Java Application Development. Gained hands-on experience in building Java-based applications, applying programming concepts to real-world problems, and working in a professional tech environment under expert guidance.`,
   },
-  {
-    id: 3,
-    title: "SWE Intern at BlueStock Fintech",
-    period: "Jan 2025 - Feb 2025",
-    workMode: "Remote",
-    location: "Pune , Maharashtra",
-    description: `Worked on software development projects to build scalable and efficient applications. Focused on data structures, code optimization, and collaborating effectively through Git and GitHub. Actively participated in code reviews, debugging, and performance tuning to ensure high-quality and maintainable code.`,
-  },
+  // {
+  //   id: 3,
+  //   title: "SWE Intern at BlueStock Fintech",
+  //   period: "Jan 2025 - Feb 2025",
+  //   workMode: "Remote",
+  //   location: "Pune , Maharashtra",
+  //   description: `Worked on software development projects to build scalable and efficient applications. Focused on data structures, code optimization, and collaborating effectively through Git and GitHub. Actively participated in code reviews, debugging, and performance tuning to ensure high-quality and maintainable code.`,
+  // },
   {
     id: 2,
     title: "Full Stack Developer at EasyBytes",

@@ -40,8 +40,8 @@ export const achievementData = [
   {
     title: "LeetCode & GFG Profiles",
     date: "Nov - present, 2023",
-    desc: `Solved 500+ coding problems across LeetCode and GFG! While I've lost some consistency in daily problem-solving due to focusing on development, it's all part of the learning journey. Still more to go 💫`,
-    images: [images.leetcode, images.gfg],
+    desc: `Solved 700+ coding problems across LeetCode and GFG! While I've lost some consistency in daily problem-solving due to focusing on development, it's all part of the learning journey. Still more to go 💫`,
+    images: [images.codolio,images.leetcode],
   },
   {
     title:

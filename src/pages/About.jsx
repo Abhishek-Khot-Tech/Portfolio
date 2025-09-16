@@ -28,7 +28,7 @@ function About() {
       </section>
 
       <a
-        href="https://drive.google.com/file/d/1KBmUxTJdylqFYBE-TPzeBcIZkiS0lAEX/view?usp=sharing"
+        href="https://drive.google.com/file/d/1DraZ3uWPRq2ajU2tKMwxnU1hjZrtAqIZ/view?usp=sharings"
         target="_blank"
       >
         <Button

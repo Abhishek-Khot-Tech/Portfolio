@@ -63,15 +63,35 @@ import dsa7 from "./assets/projects/dsa/dsa6_.png";
 import dsa8 from "./assets/projects/dsa/dsa7_.png";
 import dsa9 from "./assets/projects/dsa/dsa8_.png";
 
-import smart1 from "./assets/projects/smart/smartRecruit1.png";
-import smart2 from "./assets/projects/smart/smartRecruit2_.png";
-import smart3 from "./assets/projects/smart/smartRecruit3.png";
-import smart4 from "./assets/projects/smart/smartRecruit4.png";
-import smart5 from "./assets/projects/smart/smartRecruit5.png";
-import smart6 from "./assets/projects/smart/smartRecruit6.png";
-import smart7 from "./assets/projects/smart/smartRecruit7.png";
-import smart8 from "./assets/projects/smart/smartRecruit8.png";
-import smart9 from "./assets/projects/smart/smartRecruit9.png";
+import smart1 from "./assets/projects/smart/smart1 (1).png";
+import smart2 from "./assets/projects/smart/smart1 (2).png";
+import smart3 from "./assets/projects/smart/smart1 (3).png";
+import smart4 from "./assets/projects/smart/smart1 (4).png";
+import smart5 from "./assets/projects/smart/smart1 (5).png";
+import smart6 from "./assets/projects/smart/smart1 (6).png";
+import smart7 from "./assets/projects/smart/smart1 (7).png";
+import smart8 from "./assets/projects/smart/smart1 (8).png";
+import smart9 from "./assets/projects/smart/smart1 (9).png";
+import smart10 from "./assets/projects/smart/smart1 (10).png";
+import smart11 from "./assets/projects/smart/smart1 (11).png";
+import smart12 from "./assets/projects/smart/smart1 (12).png";
+import smart13 from "./assets/projects/smart/smart1 (13).png";
+import smart14 from "./assets/projects/smart/smart1 (14).png";
+import smart15 from "./assets/projects/smart/smart1 (15).png";
+import smart16 from "./assets/projects/smart/smart1 (16).png";
+import smart17 from "./assets/projects/smart/smart1 (17).png";
+import smart18 from "./assets/projects/smart/smart1 (18).png";
+import smart19 from "./assets/projects/smart/smart1 (19).png";
+import smart20 from "./assets/projects/smart/smart1 (20).png";
+import smart21 from "./assets/projects/smart/smart1 (21).png";
+import smart22 from "./assets/projects/smart/smart1 (22).png";
+import smart23 from "./assets/projects/smart/smart1 (23).png";
+import smart24 from "./assets/projects/smart/smart1 (24).png";
+import smart25 from "./assets/projects/smart/smart1 (25).png";
+
+
+
+
 
 import wonder1 from "./assets/projects/wonder/wonder1.png";
 import wonder2 from "./assets/projects/wonder/wonder2.png";
@@ -166,6 +186,24 @@ import clothing3 from "./assets/projects/clothing/clothing3.png";
 import clothing4 from "./assets/projects/clothing/clothing4.png";
 
 import crisis1 from "./assets/projects/cris/crisis.png";
+
+import transport1 from "./assets/projects/transport/transport1.png";
+import transport2 from "./assets/projects/transport/transport2.png";
+import transport3 from "./assets/projects/transport/transport3.png";
+import transport4 from "./assets/projects/transport/transport4.png";
+import transport5 from "./assets/projects/transport/transport5.png";
+import transport6 from "./assets/projects/transport/transport6.png";
+import transport7 from "./assets/projects/transport/transport7.png";
+import transport8 from "./assets/projects/transport/transport8.png";
+import transport9 from "./assets/projects/transport/transport9.png";
+import transport10 from "./assets/projects/transport/transport10.png";
+import transport11 from "./assets/projects/transport/transport11.png";
+import transport12 from "./assets/projects/transport/transport12.png";
+import transport13 from "./assets/projects/transport/transport13.png";
+
+import sonar1 from "./assets/projects/sonar/sonar1.png";
+
+
 //achievements
 import gogte1 from "./assets/achievements/gogte/g1.jpg";
 import gogte2 from "./assets/achievements/gogte/g2.jpg";
@@ -173,7 +211,7 @@ import gogte3 from "./assets/achievements/gogte/g3.jpg";
 import gogte4 from "./assets/achievements/gogte/g4.jpg";
 
 import leetcode from "./assets/achievements/other/leetcode.png";
-import gfg from "./assets/achievements/other/gfg.png";
+import codolio from "./assets/achievements/other/codolio.png";
 import codevita1 from "./assets/achievements/other/codevita1.png";
 import codevita2 from "./assets/achievements/other/codevita2.png";
 import fivestar from "./assets/achievements/other/fivestar.png";
@@ -334,15 +372,6 @@ export const images = {
   dsa7,
   dsa8,
   dsa9,
-  smart1,
-  smart2,
-  smart3,
-  smart4,
-  smart5,
-  smart6,
-  smart7,
-  smart8,
-  smart9,
   nav1,
   nav2,
   nav3,
@@ -364,12 +393,53 @@ export const images = {
   clothing3,
   clothing4,
   crisis1,
+  transport1,
+  transport2,
+  transport3,
+  transport4,
+  transport5,
+  transport6,
+  transport7,
+  transport8,
+  transport9,
+  transport10,
+  transport11,
+  transport12,
+  transport13,
+  smart1,
+  smart2,
+  smart3,
+  smart4,
+  smart5,
+  smart6,
+  smart7,
+
+  smart8,
+  smart9,
+  smart10,
+  smart11,
+  smart12,
+  smart13,
+  smart14,
+  smart15,
+  smart16,
+  smart17,
+  smart18,
+  smart19,
+  smart20,
+  smart21,
+  smart22,
+  smart23,
+  smart24,
+  smart25,
+
+  sonar1,
   //achievements
   //codolio
   codo,
 
   leetcode,
-  gfg,
+  codolio,
   codevita1,
   codevita2,
   fivestar,

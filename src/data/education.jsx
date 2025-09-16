@@ -4,7 +4,7 @@ export const educationData = [
     title: "Bachelor of Engineering",
     period: "2022 - 2026",
     description: "Jain College of Engineering and Research",
-    percentage: "9.37 CGPA (till 5th sem)",
+    percentage: "9.27 CGPA (till 6th sem)",
   },
   {
     id: 2,

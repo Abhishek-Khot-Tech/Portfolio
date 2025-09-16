@@ -2,8 +2,7 @@ import { images } from "../Images";
 export const categories = [
   "All",
   "Web Development",
-  // "Console Applications",
-  "Gen AI",
+  "Machine Learning",
 
   "Frontend Development",
 ];
@@ -11,7 +10,7 @@ export const categories = [
 export const projects = [
   {
     title: "🎯 Smart Campus Navigator",
-    category: "Gen AI",
+    category: "Web Development",
     download: null,
     images: [
       images.nav1,
@@ -64,7 +63,131 @@ Smart Campus Navigator is an AI-powered interactive platform built to simplify c
 - Hosting: Vercel  
   `,
   },
+
+ 
   {
+  title: "Smart Recruitment System - AI-Powered Hiring Platform",
+  category: "Web Development",
+  download: null,
+  images: [
+    images.smart1,
+    images.smart2,
+    images.smart3,
+    images.smart4,
+    images.smart5,
+    images.smart6,
+    images.smart7,
+    images.smart8,
+    images.smart9,
+    images.smart10,
+    images.smart11,
+    images.smart12,
+    images.smart13,
+    images.smart14,
+    images.smart15,
+    images.smart16,
+    images.smart17,
+    images.smart18,
+    images.smart19,
+    images.smart20,
+    images.smart21,
+    images.smart22,
+    images.smart23,
+    images.smart24,
+    images.smart25,
+  ],
+  alt: "Project image",
+  live: "https://smartrecruimentsystemai.onrender.com",
+  video: null,
+  repo: null,
+  desc: ` 🤖 Smart Recruitment System - AI-Powered Hiring Platform  
+
+  The Smart Recruitment System is an AI-driven recruitment management platform that modernizes the hiring process by combining automation, fairness mechanisms, and adaptive assessments. It helps recruiters streamline resume screening, bias detection, and candidate evaluation while providing a transparent and engaging experience for applicants.  
+
+  💻 Tech Stack:  
+
+  - Frontend: React + TypeScript, Monaco Code Editor  
+  - Backend: Node.js, Express.js  
+  - Database: MongoDB Atlas  
+  - Authentication: Secure Login (Email / OTP)  
+  - AI & ML: Gemini API for resume parsing & code evaluation  
+  - Proctoring: OpenCV for AI-based monitoring  
+  - Media & File Handling: Cloudinary  
+  - Hosting: Render  
+  - Version Control: Git and GitHub  
+
+  ✨ Features:  
+
+  1. AI Resume Parsing: Extracts education, skills, and work experience using Gemini API  
+  2. Candidate Ranking: Matches job criteria with top applicants automatically  
+  3. Adaptive Assessments: Dynamic coding and aptitude tests tailored to candidates  
+  4. AI Proctoring: Ensures integrity with webcam monitoring and activity detection  
+  5. Smart Practice Recommendations: ML-based question generation for skill improvement  
+  6. Recruiter Dashboard: Manage applicants, results, and interview scheduling seamlessly  
+  7. Real-Time Feedback: Instant scoring, analytics, and AI-generated performance insights  
+  8. Bias Detection & Explainability: Ensures fairness and transparency in decision-making  
+  9. Notifications & Alerts: Automated emails for test schedules, results, and updates  
+  10. Responsive Design: Optimized for desktop and mobile platforms  
+
+  🚀 The system creates a smarter, faster, and unbiased recruitment ecosystem where organizations save time and resources, while candidates enjoy a fairer and more transparent hiring journey.  
+  `,
+},
+
+   {
+  title: "Product Transparency with AI - Smart Product Management Website",
+  category: "Web Development",
+  download: null,
+  images: [
+    images.transport1,
+    images.transport2,
+    images.transport3,
+    images.transport4,
+    images.transport5,
+    images.transport6,
+    images.transport7,
+    images.transport8,
+
+    images.transport9,
+
+    images.transport10,     
+    images.transport11,
+    images.transport12,
+    images.transport13,
+
+  ],
+  alt: "Project image",
+  live: "https://transparentai-3mqb.onrender.com",
+  video: "https://youtu.be/t8nyEljMZ1w",
+  repo: "https://github.com/Abhishek-Khot/AI-Powered-Product-Management-System",
+  desc: ` 📊 Product Transparency with AI - Smart Product Management Website  
+
+  Product Transparency with AI is an advanced product management platform that helps businesses efficiently manage products with customizable attributes, export reports, and leverage AI-powered automation for enhanced productivity.  
+
+  💻 Tech Stack:  
+
+  - Frontend: React, Material UI  
+  - Backend: Node.js, Express.js  
+  - Database: MongoDB  
+  - Authentication: JWT Authentication  
+  - AI & ML: Gemini API for smart attribute generation  
+  - File Handling: Smart Upload & Cloud Storage  
+  - Reporting: Excel and PDF export  
+  - Emailing: SMTP for direct report sharing  
+  - Version Control: Git and GitHub  
+
+  ✨ Features:  
+
+  1. Add Products with Custom Attributes: Flexible product entry system  
+  2. AI-Powered Attribute Generation: Smart image upload with Gemini API integration  
+  3. Export Reports: Download product reports in both Excel and PDF formats  
+  4. Email Integration: Directly send reports via SMTP  
+  5. Export History: Retrieve and recover past reports with ease  
+  6. User Management: Update and manage user profile details seamlessly  
+  7. Responsive Design: Optimized for mobile, tablet, and desktop  
+  8. Productivity Boost: Automated workflows with AI and secure data handling  
+  `,
+},
+ {
     title: "Happy Stay- Travel Planning Platform",
     category: "Web Development",
     download: null,
@@ -151,9 +274,64 @@ Smart Campus Navigator is an AI-powered interactive platform built to simplify c
 📌 Grateful for the opportunity to build something meaningful — refining it further based on ongoing client feedback!
   `,
   },
+ {
+    title: " Service Race - On Demand Service Booking App",
+    category: "Web Development",
+    download: null,
+    images: [
+      images.ser1,
+      images.ser2,
+      images.ser3,
+      images.ser4,
+      images.ser5,
+      images.ser6,
+      images.ser7,
+      images.ser8,
+      images.ser9,
+      images.ser10,
+      images.ser11,
+      images.ser12,
+      images.ser13,
+      images.ser14,
+      images.ser15,
+      images.ser16,
+    ],
+    alt: "Project image",
+    live: "https://service-race-platform.onrender.com/",
+    video: null,
+    repo: "https://github.com/Abhishek-Khot/ServiceRace-GIT",
+    desc: ` 🏎 Service Race - On-Demand Service Booking App  
+  
+  Service Race is a fast and reliable on-demand service booking application designed to connect users with professional service providers for home services, automobile repairs, plumbing, painting, cleaning, and consultancy. With an intuitive interface and AI-powered recommendations, users can effortlessly find and book the best service providers in their area.  
+  
+  💻 Tech Stack:  
+  
+  - Frontend: React, Material UI  
+  - Backend: Node.js, Express.js  
+  - Database: MongoDB  
+  - Authentication: JWT Authentication  
+  - AI & ML: Gen AI-based service recommendations  
+  - Image Storage: Cloudinary  
+  - Payment Gateway: Razorpay  
+  - Maps & Tracking: Leaflet.js for real-time order tracking  
+  - Version Control: Git and GitHub  
+  
+  ✨ Features:  
+  
+  1. Instant Service Booking: Users can book services with a few clicks  
+  2. Smart Recommendations: AI-powered suggestions based on user preferences and past bookings  
+  3. Live Tracking: Real-time service provider location tracking with Leaflet.js  
+  4. Secure Payments: Razorpay integration for hassle-free transactions  
+  5. User Ratings & Reviews: Transparent feedback system for quality assurance  
+  6. Responsive Design: Optimized for mobile, tablet, and desktop  
+  7. Multi-Service Support: Book services for home repairs, automobiles, plumbing, painting, and more  
+  8. Service Provider Dashboard: Manage bookings, schedules, and earnings easily  
+  `,
+  },
+
   {
     title: "🚨 Crisis Detection & Response System",
-    category: "Gen AI",
+    category: "Web Development",
     download: null,
     images: [
       images.crisis1,
@@ -251,60 +429,41 @@ SmartTrack is a dynamic portfolio website designed to showcase projects, skills,
 8. SEO Optimized: Improved search engine visibility  
 `,
   },
+  
   {
-    title: " Service Race - On Demand Service Booking App",
-    category: "Web Development",
-    download: null,
-    images: [
-      images.ser1,
-      images.ser2,
-      images.ser3,
-      images.ser4,
-      images.ser5,
-      images.ser6,
-      images.ser7,
-      images.ser8,
-      images.ser9,
-      images.ser10,
-      images.ser11,
-      images.ser12,
-      images.ser13,
-      images.ser14,
-      images.ser15,
-      images.ser16,
-    ],
-    alt: "Project image",
-    live: "https://service-race-platform.onrender.com/",
-    video: null,
-    repo: "https://github.com/Abhishek-Khot/ServiceRace-GIT",
-    desc: ` 🏎 Service Race - On-Demand Service Booking App  
-  
-  Service Race is a fast and reliable on-demand service booking application designed to connect users with professional service providers for home services, automobile repairs, plumbing, painting, cleaning, and consultancy. With an intuitive interface and AI-powered recommendations, users can effortlessly find and book the best service providers in their area.  
-  
+  title: "Sonar Rock vs Mine - Machine Learning Project",
+  category: "Machine Learning",
+  download: null,
+  images: [
+    images.sonar1,
+  ],
+  alt: "Project image",
+  live: "https://huggingface.co/spaces/AbhishekKhot/Sonar-Rock-vs-Mine",
+  video: null,
+  repo: "https://huggingface.co/spaces/AbhishekKhot/Sonar-Rock-vs-Mine/tree/main",
+  desc: ` 🎯 Sonar Rock vs Mine - Logistic Regression Classifier  
+
+  The Sonar Rock vs Mine project is a machine learning model that predicts whether an object detected by sonar signals is a rock or a mine. Hosted on Hugging Face Spaces, it demonstrates the application of logistic regression for binary classification tasks.  
+
   💻 Tech Stack:  
-  
-  - Frontend: React, Material UI  
-  - Backend: Node.js, Express.js  
-  - Database: MongoDB  
-  - Authentication: JWT Authentication  
-  - AI & ML: Gen AI-based service recommendations  
-  - Image Storage: Cloudinary  
-  - Payment Gateway: Razorpay  
-  - Maps & Tracking: Leaflet.js for real-time order tracking  
-  - Version Control: Git and GitHub  
-  
+
+  - Language: Python  
+  - Framework: Scikit-learn  
+  - Hosting: Hugging Face Spaces  
+  - Model: Logistic Regression  
+  - Libraries: Pandas, NumPy, Matplotlib  
+
   ✨ Features:  
-  
-  1. Instant Service Booking: Users can book services with a few clicks  
-  2. Smart Recommendations: AI-powered suggestions based on user preferences and past bookings  
-  3. Live Tracking: Real-time service provider location tracking with Leaflet.js  
-  4. Secure Payments: Razorpay integration for hassle-free transactions  
-  5. User Ratings & Reviews: Transparent feedback system for quality assurance  
-  6. Responsive Design: Optimized for mobile, tablet, and desktop  
-  7. Multi-Service Support: Book services for home repairs, automobiles, plumbing, painting, and more  
-  8. Service Provider Dashboard: Manage bookings, schedules, and earnings easily  
+
+  1. Binary Classification: Predicts between sonar rocks and mines  
+  2. User-Friendly Interface: Easy-to-use Hugging Face demo app  
+  3. Accurate Predictions: Logistic Regression model trained on sonar dataset  
+  4. Data Preprocessing: Normalization and feature engineering applied  
+  5. Visualization: Performance metrics and plots for insights  
+  6. Lightweight Deployment: Hosted directly on Hugging Face for instant access  
   `,
-  },
+},
+
   {
     title: "🚀 Evalence",
     category: "Frontend Development",
@@ -398,27 +557,7 @@ Campus Connect is a full-stack web platform designed to help students find essen
 9. User Authentication: Secure login and personalized dashboard  
 `,
   },
-  {
-    title: "Smart Recruitment System",
-    category: "Frontend Development",
-    download: null,
-    images: [
-      images.smart1,
-      images.smart2,
-      images.smart3,
-      images.smart4,
-      images.smart5,
-      images.smart6,
-      images.smart7,
-      images.smart8,
-      images.smart9,
-    ],
-    alt: "Project image",
-    live: "https://v0-open-in-v0-two-phi.vercel.app/",
-    video: null,
-    repo: null,
-    desc: "Ongoing Project",
-  },
+  
   {
     title: "Weather App",
     category: "Frontend Development",
